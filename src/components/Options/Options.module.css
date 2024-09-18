@@ -1,0 +1,8 @@
+.optionsContainer {
+  display: flex;
+  gap: 5px;
+}
+
+.optionsContainer button {
+  font-size: 16px;
+}

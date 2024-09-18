@@ -1,8 +1,15 @@
-// import Profile from "./components/Profile/Profile";
-// import userData from "./userData.json";
+import Options from "./components/Options/Options";
+import Description from "./components/Description/Description";
+import Feedback from "./components/Feedback/Feedback";
 
 const App = () => {
-  return <></>;
+  return (
+    <>
+      <Description />
+      <Options />
+      <Feedback />
+    </>
+  );
 };
 
 export default App;
